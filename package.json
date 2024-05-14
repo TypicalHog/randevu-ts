@@ -1,0 +1,48 @@
+{
+  "name": "randevu",
+  "version": "2.0.0",
+  "description": "The official TypeScript implementation of the RANDEVU algorithm",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "test": "jest"
+  },
+  "keywords": [
+    "randevu",
+    "rdv",
+    "rdvt",
+    "global",
+    "reminder",
+    "algorithm",
+    "date",
+    "time",
+    "random",
+    "blake3",
+    "daily",
+    "cryptography",
+    "hash",
+    "offline",
+    "rendezvous",
+    "probabilistic",
+    "deterministic"
+  ],
+  "author": "TypicalHog",
+  "license": "Unlicense OR MIT OR Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TypicalHog/randevu-ts"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@noble/hashes": "^1.4.0"
+  }
+}
